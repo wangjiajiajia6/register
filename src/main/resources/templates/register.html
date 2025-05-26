@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <title>register your account</title>
+</head>
+<body>
+<link rel="stylesheet" href="/static/css/style.css">
+    <div><img src="../static/css/background.jpg" class="fullscreen-image" alt=""></div>
+    <div class="outside">
+        <div style="margin-left: 200px;margin-top:30px">
+            <h1>register your personal account</h1>
+        </div>
+        <div class="username">
+        <strong><u>Enter your username:</u></strong>
+        <input type="text" placeholder="username" class="usernameInput" id="username">
+        <div id="usernameOutput" style="font-size:medium;margin-left:20px;color:darkred"></div>
+        </div>
+        <div class="password">
+        <strong><u>Enter your password:</u></strong>
+        <input type="password" placeholder="password" class="passwordInput" id="password"><br>
+        <div id="passwordOutput" style="font-size:medium;margin-left:20px;color:darkred"></div>
+        </div>
+        <div class="password">
+            <strong><u>Enter your password again:</u></strong>
+            <input type="password" placeholder="password again" class="passwordInput" id="passwordRepeat"><br>
+            <div id="passwordOutputRepeat" style="font-size:medium;margin-left:20px;color:darkred"></div>
+        </div>
+        <div class="button">
+            <strong><em>no error?--></em></strong>
+            <button type="button" class="submitButton" onclick="submit()">submit</button>
+        </div>
+        <div style="margin-left:200px;margin-top:30px">
+            <strong><em>already have an account?--></em></strong>
+            <a href="./login.html">click me to login</a>
+        </div>
+        <div style="margin-left: 200px;margin-top:30px">
+            <div id="result"></div>
+        </div>
+    </div>
+<script src="/static/js/script.js"></script>
+</body>
+</html>
